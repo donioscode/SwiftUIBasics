@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct Initializer__init___: View {
+struct InitializerBasics: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #Preview {
-    Initializer__init___()
+    InitializerBasics()
 }
