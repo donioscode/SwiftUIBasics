@@ -23,6 +23,7 @@
 		911073562BE8F60400CF66E6 /* Paddingbasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911073552BE8F60400CF66E6 /* Paddingbasics.swift */; };
 		911073582BEA075000CF66E6 /* SpacerBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911073572BEA075000CF66E6 /* SpacerBasics.swift */; };
 		9110735C2BEA17DC00CF66E6 /* InitializerBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9110735B2BEA17DC00CF66E6 /* InitializerBasics.swift */; };
+		9110735E2BEA224B00CF66E6 /* ForEachLoopBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9110735D2BEA224B00CF66E6 /* ForEachLoopBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		911073552BE8F60400CF66E6 /* Paddingbasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paddingbasics.swift; sourceTree = "<group>"; };
 		911073572BEA075000CF66E6 /* SpacerBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerBasics.swift; sourceTree = "<group>"; };
 		9110735B2BEA17DC00CF66E6 /* InitializerBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerBasics.swift; sourceTree = "<group>"; };
+		9110735D2BEA224B00CF66E6 /* ForEachLoopBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachLoopBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				911073552BE8F60400CF66E6 /* Paddingbasics.swift */,
 				911073572BEA075000CF66E6 /* SpacerBasics.swift */,
 				9110735B2BEA17DC00CF66E6 /* InitializerBasics.swift */,
+				9110735D2BEA224B00CF66E6 /* ForEachLoopBasic.swift */,
 				910EE5F02BE61962007B2D39 /* Assets.xcassets */,
 				910EE5F22BE61962007B2D39 /* Preview Content */,
 			);
@@ -177,6 +180,7 @@
 				911073582BEA075000CF66E6 /* SpacerBasics.swift in Sources */,
 				911073542BE8E71200CF66E6 /* HVZStacksBasic.swift in Sources */,
 				910EE5FB2BE61E90007B2D39 /* BasicsText.swift in Sources */,
+				9110735E2BEA224B00CF66E6 /* ForEachLoopBasic.swift in Sources */,
 				910EE5EF2BE61961007B2D39 /* ContentView.swift in Sources */,
 				911073522BE8C9A400CF66E6 /* BackgroundBasicsOverlay.swift in Sources */,
 				9110734C2BE8AF4E00CF66E6 /* IconsBasic.swift in Sources */,

@@ -8,8 +8,20 @@
 import SwiftUI
 
 struct ForEachLoopBasic: View {
+    var data: [String] = ["Hi","Hello","Hello everyone"]
+    var myString: String = "hello brother"
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+//            This is a data content ForEach
+            ForEach(data.indices) { index in
+                Text("\(data[index]):\(index)")
+            }
+//            This is a data Range<Int> ForEach
+            ForEach(0..<10) { index in
+                Circle()
+                    .frame(width: 20,height: 20)
+            }
+        }
     }
 }
 
