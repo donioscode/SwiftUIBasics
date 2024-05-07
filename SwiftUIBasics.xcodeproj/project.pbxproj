@@ -24,6 +24,7 @@
 		911073582BEA075000CF66E6 /* SpacerBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911073572BEA075000CF66E6 /* SpacerBasics.swift */; };
 		9110735C2BEA17DC00CF66E6 /* InitializerBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9110735B2BEA17DC00CF66E6 /* InitializerBasics.swift */; };
 		9110735E2BEA224B00CF66E6 /* ForEachLoopBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9110735D2BEA224B00CF66E6 /* ForEachLoopBasic.swift */; };
+		911073602BEA2A4700CF66E6 /* ScrollViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9110735F2BEA2A4700CF66E6 /* ScrollViewBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		911073572BEA075000CF66E6 /* SpacerBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerBasics.swift; sourceTree = "<group>"; };
 		9110735B2BEA17DC00CF66E6 /* InitializerBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerBasics.swift; sourceTree = "<group>"; };
 		9110735D2BEA224B00CF66E6 /* ForEachLoopBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachLoopBasic.swift; sourceTree = "<group>"; };
+		9110735F2BEA2A4700CF66E6 /* ScrollViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				911073572BEA075000CF66E6 /* SpacerBasics.swift */,
 				9110735B2BEA17DC00CF66E6 /* InitializerBasics.swift */,
 				9110735D2BEA224B00CF66E6 /* ForEachLoopBasic.swift */,
+				9110735F2BEA2A4700CF66E6 /* ScrollViewBasic.swift */,
 				910EE5F02BE61962007B2D39 /* Assets.xcassets */,
 				910EE5F22BE61962007B2D39 /* Preview Content */,
 			);
@@ -188,6 +191,7 @@
 				9110734E2BE8B60000CF66E6 /* ImagesBasic.swift in Sources */,
 				910EE5FF2BE64B1A007B2D39 /* CollorsBasics.swift in Sources */,
 				9110734A2BE8A3E500CF66E6 /* GradientBasics.swift in Sources */,
+				911073602BEA2A4700CF66E6 /* ScrollViewBasic.swift in Sources */,
 				911073562BE8F60400CF66E6 /* Paddingbasics.swift in Sources */,
 				910EE5ED2BE61961007B2D39 /* SwiftUIBasicsApp.swift in Sources */,
 				9110735C2BEA17DC00CF66E6 /* InitializerBasics.swift in Sources */,
