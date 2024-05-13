@@ -25,6 +25,7 @@
 		9110735C2BEA17DC00CF66E6 /* InitializerBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9110735B2BEA17DC00CF66E6 /* InitializerBasics.swift */; };
 		9110735E2BEA224B00CF66E6 /* ForEachLoopBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9110735D2BEA224B00CF66E6 /* ForEachLoopBasic.swift */; };
 		911073602BEA2A4700CF66E6 /* ScrollViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9110735F2BEA2A4700CF66E6 /* ScrollViewBasic.swift */; };
+		912C3E582BF207B300BBD47F /* LayzGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912C3E572BF207B300BBD47F /* LayzGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		9110735B2BEA17DC00CF66E6 /* InitializerBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerBasics.swift; sourceTree = "<group>"; };
 		9110735D2BEA224B00CF66E6 /* ForEachLoopBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachLoopBasic.swift; sourceTree = "<group>"; };
 		9110735F2BEA2A4700CF66E6 /* ScrollViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBasic.swift; sourceTree = "<group>"; };
+		912C3E572BF207B300BBD47F /* LayzGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayzGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				9110735B2BEA17DC00CF66E6 /* InitializerBasics.swift */,
 				9110735D2BEA224B00CF66E6 /* ForEachLoopBasic.swift */,
 				9110735F2BEA2A4700CF66E6 /* ScrollViewBasic.swift */,
+				912C3E572BF207B300BBD47F /* LayzGrid.swift */,
 				910EE5F02BE61962007B2D39 /* Assets.xcassets */,
 				910EE5F22BE61962007B2D39 /* Preview Content */,
 			);
@@ -185,6 +188,7 @@
 				910EE5FB2BE61E90007B2D39 /* BasicsText.swift in Sources */,
 				9110735E2BEA224B00CF66E6 /* ForEachLoopBasic.swift in Sources */,
 				910EE5EF2BE61961007B2D39 /* ContentView.swift in Sources */,
+				912C3E582BF207B300BBD47F /* LayzGrid.swift in Sources */,
 				911073522BE8C9A400CF66E6 /* BackgroundBasicsOverlay.swift in Sources */,
 				9110734C2BE8AF4E00CF66E6 /* IconsBasic.swift in Sources */,
 				910EE5FD2BE625BE007B2D39 /* ShapesBasic.swift in Sources */,
