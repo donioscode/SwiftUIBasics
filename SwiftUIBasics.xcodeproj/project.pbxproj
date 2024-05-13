@@ -26,6 +26,8 @@
 		9110735E2BEA224B00CF66E6 /* ForEachLoopBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9110735D2BEA224B00CF66E6 /* ForEachLoopBasic.swift */; };
 		911073602BEA2A4700CF66E6 /* ScrollViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9110735F2BEA2A4700CF66E6 /* ScrollViewBasic.swift */; };
 		912C3E582BF207B300BBD47F /* LayzGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912C3E572BF207B300BBD47F /* LayzGrid.swift */; };
+		912C3E5A2BF215E500BBD47F /* SafeAreaSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912C3E592BF215E500BBD47F /* SafeAreaSwiftUI.swift */; };
+		912C3E5C2BF21D1200BBD47F /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912C3E5B2BF21D1200BBD47F /* Buttons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,8 @@
 		9110735D2BEA224B00CF66E6 /* ForEachLoopBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachLoopBasic.swift; sourceTree = "<group>"; };
 		9110735F2BEA2A4700CF66E6 /* ScrollViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBasic.swift; sourceTree = "<group>"; };
 		912C3E572BF207B300BBD47F /* LayzGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayzGrid.swift; sourceTree = "<group>"; };
+		912C3E592BF215E500BBD47F /* SafeAreaSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaSwiftUI.swift; sourceTree = "<group>"; };
+		912C3E5B2BF21D1200BBD47F /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				9110735D2BEA224B00CF66E6 /* ForEachLoopBasic.swift */,
 				9110735F2BEA2A4700CF66E6 /* ScrollViewBasic.swift */,
 				912C3E572BF207B300BBD47F /* LayzGrid.swift */,
+				912C3E592BF215E500BBD47F /* SafeAreaSwiftUI.swift */,
+				912C3E5B2BF21D1200BBD47F /* Buttons.swift */,
 				910EE5F02BE61962007B2D39 /* Assets.xcassets */,
 				910EE5F22BE61962007B2D39 /* Preview Content */,
 			);
@@ -198,7 +204,9 @@
 				911073602BEA2A4700CF66E6 /* ScrollViewBasic.swift in Sources */,
 				911073562BE8F60400CF66E6 /* Paddingbasics.swift in Sources */,
 				910EE5ED2BE61961007B2D39 /* SwiftUIBasicsApp.swift in Sources */,
+				912C3E5C2BF21D1200BBD47F /* Buttons.swift in Sources */,
 				9110735C2BEA17DC00CF66E6 /* InitializerBasics.swift in Sources */,
+				912C3E5A2BF215E500BBD47F /* SafeAreaSwiftUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
