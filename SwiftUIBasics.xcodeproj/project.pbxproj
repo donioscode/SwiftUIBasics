@@ -28,6 +28,9 @@
 		912C3E582BF207B300BBD47F /* LayzGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912C3E572BF207B300BBD47F /* LayzGrid.swift */; };
 		912C3E5A2BF215E500BBD47F /* SafeAreaSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912C3E592BF215E500BBD47F /* SafeAreaSwiftUI.swift */; };
 		912C3E5C2BF21D1200BBD47F /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912C3E5B2BF21D1200BBD47F /* Buttons.swift */; };
+		912C3E5E2BF2290600BBD47F /* @State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912C3E5D2BF2290600BBD47F /* @State.swift */; };
+		912C3E602BF34C9C00BBD47F /* @BindingAndSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912C3E5F2BF34C9C00BBD47F /* @BindingAndSubView.swift */; };
+		912C3E622BF36FD400BBD47F /* TernaryOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912C3E612BF36FD400BBD47F /* TernaryOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +56,9 @@
 		912C3E572BF207B300BBD47F /* LayzGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayzGrid.swift; sourceTree = "<group>"; };
 		912C3E592BF215E500BBD47F /* SafeAreaSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaSwiftUI.swift; sourceTree = "<group>"; };
 		912C3E5B2BF21D1200BBD47F /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		912C3E5D2BF2290600BBD47F /* @State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "@State.swift"; sourceTree = "<group>"; };
+		912C3E5F2BF34C9C00BBD47F /* @BindingAndSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "@BindingAndSubView.swift"; sourceTree = "<group>"; };
+		912C3E612BF36FD400BBD47F /* TernaryOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryOperation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,9 @@
 				912C3E572BF207B300BBD47F /* LayzGrid.swift */,
 				912C3E592BF215E500BBD47F /* SafeAreaSwiftUI.swift */,
 				912C3E5B2BF21D1200BBD47F /* Buttons.swift */,
+				912C3E5D2BF2290600BBD47F /* @State.swift */,
+				912C3E5F2BF34C9C00BBD47F /* @BindingAndSubView.swift */,
+				912C3E612BF36FD400BBD47F /* TernaryOperation.swift */,
 				910EE5F02BE61962007B2D39 /* Assets.xcassets */,
 				910EE5F22BE61962007B2D39 /* Preview Content */,
 			);
@@ -192,8 +201,10 @@
 				911073582BEA075000CF66E6 /* SpacerBasics.swift in Sources */,
 				911073542BE8E71200CF66E6 /* HVZStacksBasic.swift in Sources */,
 				910EE5FB2BE61E90007B2D39 /* BasicsText.swift in Sources */,
+				912C3E5E2BF2290600BBD47F /* @State.swift in Sources */,
 				9110735E2BEA224B00CF66E6 /* ForEachLoopBasic.swift in Sources */,
 				910EE5EF2BE61961007B2D39 /* ContentView.swift in Sources */,
+				912C3E602BF34C9C00BBD47F /* @BindingAndSubView.swift in Sources */,
 				912C3E582BF207B300BBD47F /* LayzGrid.swift in Sources */,
 				911073522BE8C9A400CF66E6 /* BackgroundBasicsOverlay.swift in Sources */,
 				9110734C2BE8AF4E00CF66E6 /* IconsBasic.swift in Sources */,
@@ -207,6 +218,7 @@
 				912C3E5C2BF21D1200BBD47F /* Buttons.swift in Sources */,
 				9110735C2BEA17DC00CF66E6 /* InitializerBasics.swift in Sources */,
 				912C3E5A2BF215E500BBD47F /* SafeAreaSwiftUI.swift in Sources */,
+				912C3E622BF36FD400BBD47F /* TernaryOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
