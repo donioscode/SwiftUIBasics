@@ -27,6 +27,8 @@
 		911073602BEA2A4700CF66E6 /* ScrollViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9110735F2BEA2A4700CF66E6 /* ScrollViewBasic.swift */; };
 		91110E192BF4BFD3009F3F33 /* AnimationTiming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91110E182BF4BFD3009F3F33 /* AnimationTiming.swift */; };
 		91110E1C2BF4C607009F3F33 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91110E1B2BF4C607009F3F33 /* Transition.swift */; };
+		91110E1E2BF4CEFE009F3F33 /* SheetsAndFullScreenCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91110E1D2BF4CEFE009F3F33 /* SheetsAndFullScreenCover.swift */; };
+		91110E202BF4D647009F3F33 /* PopoverSheetsFullScreeen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91110E1F2BF4D647009F3F33 /* PopoverSheetsFullScreeen.swift */; };
 		912C3E582BF207B300BBD47F /* LayzGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912C3E572BF207B300BBD47F /* LayzGrid.swift */; };
 		912C3E5A2BF215E500BBD47F /* SafeAreaSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912C3E592BF215E500BBD47F /* SafeAreaSwiftUI.swift */; };
 		912C3E5C2BF21D1200BBD47F /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912C3E5B2BF21D1200BBD47F /* Buttons.swift */; };
@@ -58,6 +60,8 @@
 		9110735F2BEA2A4700CF66E6 /* ScrollViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBasic.swift; sourceTree = "<group>"; };
 		91110E182BF4BFD3009F3F33 /* AnimationTiming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTiming.swift; sourceTree = "<group>"; };
 		91110E1B2BF4C607009F3F33 /* Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
+		91110E1D2BF4CEFE009F3F33 /* SheetsAndFullScreenCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsAndFullScreenCover.swift; sourceTree = "<group>"; };
+		91110E1F2BF4D647009F3F33 /* PopoverSheetsFullScreeen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverSheetsFullScreeen.swift; sourceTree = "<group>"; };
 		912C3E572BF207B300BBD47F /* LayzGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayzGrid.swift; sourceTree = "<group>"; };
 		912C3E592BF215E500BBD47F /* SafeAreaSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaSwiftUI.swift; sourceTree = "<group>"; };
 		912C3E5B2BF21D1200BBD47F /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
@@ -121,6 +125,8 @@
 				912C3E612BF36FD400BBD47F /* TernaryOperation.swift */,
 				91110E1A2BF4C5E3009F3F33 /* Animation */,
 				91110E1B2BF4C607009F3F33 /* Transition.swift */,
+				91110E1D2BF4CEFE009F3F33 /* SheetsAndFullScreenCover.swift */,
+				91110E1F2BF4D647009F3F33 /* PopoverSheetsFullScreeen.swift */,
 				910EE5F02BE61962007B2D39 /* Assets.xcassets */,
 				910EE5F22BE61962007B2D39 /* Preview Content */,
 			);
@@ -230,10 +236,12 @@
 				910EE5FD2BE625BE007B2D39 /* ShapesBasic.swift in Sources */,
 				9110734E2BE8B60000CF66E6 /* ImagesBasic.swift in Sources */,
 				910EE5FF2BE64B1A007B2D39 /* CollorsBasics.swift in Sources */,
+				91110E202BF4D647009F3F33 /* PopoverSheetsFullScreeen.swift in Sources */,
 				9110734A2BE8A3E500CF66E6 /* GradientBasics.swift in Sources */,
 				91110E192BF4BFD3009F3F33 /* AnimationTiming.swift in Sources */,
 				911073602BEA2A4700CF66E6 /* ScrollViewBasic.swift in Sources */,
 				911073562BE8F60400CF66E6 /* Paddingbasics.swift in Sources */,
+				91110E1E2BF4CEFE009F3F33 /* SheetsAndFullScreenCover.swift in Sources */,
 				910EE5ED2BE61961007B2D39 /* SwiftUIBasicsApp.swift in Sources */,
 				912C3E5C2BF21D1200BBD47F /* Buttons.swift in Sources */,
 				9110735C2BEA17DC00CF66E6 /* InitializerBasics.swift in Sources */,
