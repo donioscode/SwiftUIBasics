@@ -8,8 +8,41 @@
 import SwiftUI
 
 struct AnimationTiming: View {
+    @State var isAnimating : Bool = false
+    let timing: Double = 1.0
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack {
+            Button("Button") {
+                isAnimating.toggle()
+            }
+            
+            RoundedRectangle(cornerRadius: 20)
+                .frame(
+                    width:isAnimating ? 350 : 100,
+                    height: 100 )
+                .shadow(radius: 10)
+                .animation(.spring(
+                    response: 1.0,
+                    dampingFraction: 0.5,
+                    blendDuration: 1.0))
+//                .animation(.linear(duration: timing))
+//            RoundedRectangle(cornerRadius: 20)
+//                .frame(
+//                    width:isAnimating ? 350 : 100,
+//                    height:  100 )
+//                .animation(.easeOut(duration: timing))
+//            RoundedRectangle(cornerRadius: 20)
+//                .frame(
+//                    width:isAnimating ? 350 : 100,
+//                    height: 100 )
+//                .animation(.easeIn(duration: timing))
+//            RoundedRectangle(cornerRadius: 20)
+//                .frame(
+//                    width:isAnimating ? 350 : 100,
+//                    height: 100 )
+//                .animation(.easeInOut(duration: timing))
+        }
     }
 }
 

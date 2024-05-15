@@ -8,8 +8,25 @@
 import SwiftUI
 
 struct Animation: View {
+    @State var isAnimated: Bool = false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Button("Button") {
+                withAnimation(.default) {
+                    isAnimated.toggle()
+                }
+            }
+            Spacer()
+            RoundedRectangle(cornerRadius: isAnimated ? 50 : 25)
+                .fill(isAnimated ? Color.green : Color.red)
+                .frame(
+                    width: isAnimated ? 100 : 300,
+                    height: isAnimated ? 100 : 300)
+                .rotationEffect(Angle(degrees: isAnimated ? 360 : 0 ))
+                .offset(y: isAnimated ? 300 : 0)
+            
+            Spacer()
+        }
     }
 }
 
