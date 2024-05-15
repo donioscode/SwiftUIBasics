@@ -26,6 +26,7 @@
 		9110735E2BEA224B00CF66E6 /* ForEachLoopBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9110735D2BEA224B00CF66E6 /* ForEachLoopBasic.swift */; };
 		911073602BEA2A4700CF66E6 /* ScrollViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9110735F2BEA2A4700CF66E6 /* ScrollViewBasic.swift */; };
 		91110E192BF4BFD3009F3F33 /* AnimationTiming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91110E182BF4BFD3009F3F33 /* AnimationTiming.swift */; };
+		91110E1C2BF4C607009F3F33 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91110E1B2BF4C607009F3F33 /* Transition.swift */; };
 		912C3E582BF207B300BBD47F /* LayzGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912C3E572BF207B300BBD47F /* LayzGrid.swift */; };
 		912C3E5A2BF215E500BBD47F /* SafeAreaSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912C3E592BF215E500BBD47F /* SafeAreaSwiftUI.swift */; };
 		912C3E5C2BF21D1200BBD47F /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912C3E5B2BF21D1200BBD47F /* Buttons.swift */; };
@@ -56,6 +57,7 @@
 		9110735D2BEA224B00CF66E6 /* ForEachLoopBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachLoopBasic.swift; sourceTree = "<group>"; };
 		9110735F2BEA2A4700CF66E6 /* ScrollViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBasic.swift; sourceTree = "<group>"; };
 		91110E182BF4BFD3009F3F33 /* AnimationTiming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTiming.swift; sourceTree = "<group>"; };
+		91110E1B2BF4C607009F3F33 /* Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
 		912C3E572BF207B300BBD47F /* LayzGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayzGrid.swift; sourceTree = "<group>"; };
 		912C3E592BF215E500BBD47F /* SafeAreaSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaSwiftUI.swift; sourceTree = "<group>"; };
 		912C3E5B2BF21D1200BBD47F /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
@@ -117,8 +119,8 @@
 				912C3E5D2BF2290600BBD47F /* @State.swift */,
 				912C3E5F2BF34C9C00BBD47F /* @BindingAndSubView.swift */,
 				912C3E612BF36FD400BBD47F /* TernaryOperation.swift */,
-				912C3E632BF37BEB00BBD47F /* Animation.swift */,
-				91110E182BF4BFD3009F3F33 /* AnimationTiming.swift */,
+				91110E1A2BF4C5E3009F3F33 /* Animation */,
+				91110E1B2BF4C607009F3F33 /* Transition.swift */,
 				910EE5F02BE61962007B2D39 /* Assets.xcassets */,
 				910EE5F22BE61962007B2D39 /* Preview Content */,
 			);
@@ -131,6 +133,15 @@
 				910EE5F32BE61962007B2D39 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91110E1A2BF4C5E3009F3F33 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				912C3E632BF37BEB00BBD47F /* Animation.swift */,
+				91110E182BF4BFD3009F3F33 /* AnimationTiming.swift */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +224,7 @@
 				910EE5EF2BE61961007B2D39 /* ContentView.swift in Sources */,
 				912C3E602BF34C9C00BBD47F /* @BindingAndSubView.swift in Sources */,
 				912C3E582BF207B300BBD47F /* LayzGrid.swift in Sources */,
+				91110E1C2BF4C607009F3F33 /* Transition.swift in Sources */,
 				911073522BE8C9A400CF66E6 /* BackgroundBasicsOverlay.swift in Sources */,
 				9110734C2BE8AF4E00CF66E6 /* IconsBasic.swift in Sources */,
 				910EE5FD2BE625BE007B2D39 /* ShapesBasic.swift in Sources */,
